@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: lightgray;
+}
+
+.borderButtons {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.infoHolder {
+  display: flex;
+  flex-direction: column;
+}
+
+.borderButtons {
+  margin: 0.5em;
+  overflow: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.info {
+  margin: 0.5em;
+  padding: 15px 32px;
+  text-align: center;
+  background-color: lightcyan;
+  font-size: 25px;
+}
+
+.flagHolder {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+  object-fit: contain;
+  max-width: 75%;
+  display: block;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  flex-grow: 1;
+  max-width: 100%;
+  margin: auto;
+}
+
+.formFlex {
+  display: flex;
+  flex-direction: column;
+  text-align-last: center;
+  margin: 10px;
+}
+
+.top {
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.extraInfo {
+  font-size: 20px;
+  color: red;
+  margin: 0;
+}
+
+.borderButtons {
+  text-shadow:-1px -1px 0 #2C7982;
+	background: #3EACBA;
+  border:1px solid #379AA4;
+  background-image:linear-gradient(top, #48C6D4, #3EACBA);
+  border-radius:5px;
+  box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+}
+.borderButtons:hover {
+  background: #48C6D4;
+  background-image:linear-gradient(top, #3EACBA, #48C6D4);
+}
+
+@media screen and (min-width: 768px) {
+  .flagHolder {
+    height: 100%;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    object-fit: contain;
+    max-width: 75%;
+    display: block;
+  }
+}
