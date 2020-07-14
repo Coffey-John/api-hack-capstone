@@ -1,8 +1,8 @@
 # Country Quick Hits
 
 ## Description
-Quickly retrieve information for a specific country
-Easily view the information of bordering countries
+- Quickly retrieve information for a specific country
+- Easily view the information of bordering countries
 
 ## Built With:
 
